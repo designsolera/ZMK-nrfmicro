@@ -1,0 +1,91 @@
+{
+  "id": "vhd",
+  "name": "vhd",
+  "layouts": {
+    "default_layout": {
+      "name": "default_layout",
+      "layout": [
+        { "label": "F1", "row": 0, "col":  0, "x":0, "y":1 },
+        { "label": "F2", "row": 0, "col":  1, "x":1, "y":1 },
+        { "label": "F3", "row": 0, "col":  2, "x":2, "y":1 },
+        { "label": "F4", "row": 0, "col":  3, "x":3, "y":1 },
+        { "label": "F5", "row": 0, "col":  4, "x":4, "y":1 },
+        { "label": "F6", "row": 0, "col":  5, "x":5, "y":1 },
+
+        { "label": "F7", "row": 0, "col":  6, "x":11.25, "y":1 },
+        { "label": "F8", "row": 0, "col":  7, "x":12.25, "y":1 },
+        { "label": "F9", "row": 0, "col":  8, "x":13.25, "y":1 },
+        { "label": "F10", "row": 0, "col":  9, "x":14.25, "y":1 },
+        { "label": "F11", "row": 0, "col":  10, "x":15.25, "y":1 },
+        { "label": "F12", "row": 0, "col":  11, "x":16.25, "y":1 },
+      
+
+
+        { "label": "0", "row": 1, "col":  0, "x":0, "y":2 },
+        { "label": "1", "row": 1, "col":  1, "x":1, "y":2 },
+        { "label": "2", "row": 1, "col":  2, "x":2, "y":2 },
+        { "label": "3", "row": 1, "col":  3, "x":3, "y":2 },
+        { "label": "4", "row": 1, "col":  4, "x":4, "y":2 },
+        { "label": "5", "row": 1, "col":  5, "x":5, "y":2 },
+
+        { "label": "6", "row": 1, "col":  6, "x":11.25, "y":2 },
+        { "label": "7", "row": 1, "col":  7, "x":12.25, "y":2 },
+        { "label": "8", "row": 1, "col":  8, "x":13.25, "y":2 },
+        { "label": "9", "row": 1, "col":  9, "x":14.25, "y":2 },
+        { "label": "0", "row": 1, "col":  10, "x":15.25, "y":2 },
+        { "label": "0", "row": 1, "col":  11, "x":16.25, "y":2 },
+
+
+
+        { "label": "0", "row": 2, "col":  0, "x":0, "y":3 },
+        { "label": "Q", "row": 2, "col":  1, "x":1, "y":3 },
+        { "label": "W", "row": 2, "col":  2, "x":2, "y":3 },
+        { "label": "E", "row": 2, "col":  3, "x":3, "y":3 },
+        { "label": "R", "row": 2, "col":  4, "x":4, "y":3 },
+        { "label": "T", "row": 2, "col":  5, "x":5, "y":3 },
+
+        { "label": "Y", "row": 2, "col":  6, "x":11.25, "y":3 },
+        { "label": "U", "row": 2, "col":  7, "x":12.25, "y":3 },
+        { "label": "I", "row": 2, "col":  8, "x":13.25, "y":3 },
+        { "label": "O", "row": 2, "col":  9, "x":14.25, "y":3 },
+        { "label": "P", "row": 2, "col":  10, "x":15.25, "y":3 },
+        { "label": "0", "row": 2, "col":  11, "x":16.25, "y":3 },
+      
+
+
+        { "label": "A", "row": 3, "col":  0, "x":0, "y":4 },
+        { "label": "S", "row": 3, "col":  1, "x":1, "y":4 },
+        { "label": "D", "row": 3, "col":  2, "x":2, "y":4 },
+        { "label": "F", "row": 3, "col":  3, "x":3, "y":4 },
+        { "label": "G", "row": 3, "col":  4, "x":4, "y":4 },
+        { "label": "G", "row": 3, "col":  5, "x":5, "y":4 },
+        
+        { "label": "H", "row": 3, "col":  6, "x":11.25, "y":4 },
+        { "label": "J", "row": 3, "col":  7, "x":12.25, "y":4 },
+        { "label": "K", "row": 3, "col":  8, "x":13.25, "y":4 },
+        { "label": "L", "row": 3, "col":  9, "x":14.25, "y":4 },
+        { "label": ";", "row": 3, "col":  10, "x":15.25, "y":4 },
+        { "label": ";", "row": 3, "col":  11, "x":16.25, "y":4 },
+
+
+
+        { "label": "Z", "row": 4, "col":  0, "x":0, "y":5 },
+        { "label": "X", "row": 4, "col":  1, "x":1, "y":5 },
+        { "label": "C", "row": 4, "col":  2, "x":2, "y":5 },
+        { "label": "V", "row": 4, "col":  3, "x":3, "y":5 },
+        { "label": "B", "row": 4, "col":  4, "x":4, "y":5 },
+        { "label": "B", "row": 4, "col":  5, "x":5, "y":5 },
+
+        { "label": "N", "row": 4, "col":  6, "x":11.25, "y":5 },
+        { "label": "M", "row": 4, "col":  7, "x":12.25, "y":5 },
+        { "label": ",", "row": 4, "col":  8, "x":13.25, "y":5 },
+        { "label": ".", "row": 4, "col":  9, "x":14.25, "y":5 },
+        { "label": "/", "row": 4, "col":  10, "x":15.25, "y":5 },
+        { "label": "/", "row": 4, "col":  11, "x":16.25, "y":5 }
+
+
+      ]
+    }
+  },
+  "sensors": []
+}

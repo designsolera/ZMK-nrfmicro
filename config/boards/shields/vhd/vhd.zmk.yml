@@ -1,0 +1,14 @@
+file_format: "1"
+id: vhd
+name: vhd
+type: shield
+url: https://github.com/joric/vhd
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - underglow
+siblings:
+  - vhd_left
+  - vhd_right
