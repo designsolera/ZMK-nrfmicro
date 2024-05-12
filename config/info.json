@@ -12,8 +12,8 @@
         { "label": "F5", "row": 0, "col":  4, "x":4, "y":1 },
         { "label": "F6", "row": 0, "col":  5, "x":5, "y":1 },
 
-           { "label": "A", "row": 0, "col":  6, "x":4, "y":6},
-           { "label": "A", "row": 0, "col":  7, "x":12, "y":6},
+           { "label": "A", "row": 0, "col":  6, "x":4, "y":6 },
+           { "label": "A", "row": 0, "col":  7, "x":12, "y":6 },
 
         { "label": "F7", "row": 0, "col":  8, "x":11.25, "y":1 },
         { "label": "F8", "row": 0, "col":  9, "x":12.25, "y":1 },
@@ -31,8 +31,8 @@
         { "label": "4", "row": 1, "col":  4, "x":4, "y":2 },
         { "label": "5", "row": 1, "col":  5, "x":5, "y":2 },
 
-           { "label": "A", "row": 1, "col":  6, "x":5, "y":6},
-           { "label": "A", "row": 1, "col":  7, "x":13, "y":6},
+           { "label": "A", "row": 1, "col":  6, "x":5, "y":6 },
+           { "label": "A", "row": 1, "col":  7, "x":13, "y":6 },
 
         { "label": "6", "row": 1, "col":  8, "x":11.25, "y":2 },
         { "label": "7", "row": 1, "col":  9, "x":12.25, "y":2 },
@@ -50,8 +50,8 @@
         { "label": "R", "row": 2, "col":  4, "x":4, "y":3 },
         { "label": "T", "row": 2, "col":  5, "x":5, "y":3 },
 
-           { "label": "A", "row": 2, "col":  6, "x":4, "y":7},
-           { "label": "A", "row": 2, "col":  7, "x":12, "y":7},
+           { "label": "A", "row": 2, "col":  6, "x":4, "y":7 },
+           { "label": "A", "row": 2, "col":  7, "x":12, "y":7 },
 
         { "label": "Y", "row": 2, "col":  8, "x":11.25, "y":3 },
         { "label": "U", "row": 2, "col":  9, "x":12.25, "y":3 },
@@ -69,8 +69,8 @@
         { "label": "G", "row": 3, "col":  4, "x":4, "y":4 },
         { "label": "G", "row": 3, "col":  5, "x":5, "y":4 },
 
-           { "label": "A", "row": 3, "col":  6, "x":5, "y":7},
-           { "label": "A", "row": 3, "col":  7, "x":13, "y":7},
+           { "label": "A", "row": 3, "col":  6, "x":5, "y":7 },
+           { "label": "A", "row": 3, "col":  7, "x":13, "y":7 },
         
         { "label": "H", "row": 3, "col":  8, "x":11.25, "y":4 },
         { "label": "J", "row": 3, "col":  9, "x":12.25, "y":4 },
