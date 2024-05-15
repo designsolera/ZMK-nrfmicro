@@ -106,7 +106,7 @@
             >;
         };
 
-        layer_4 {4
+        layer_4 {
             bindings = <
 &kp ESC        &kp Ft  &kp F2  &kp F3  &kp F4  &kp F5        &lt 2 DELETE     &kp LEFT_ALT    &kp UP_ARROW  &kp DOWN_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW 1 &to &TD1
 &kp TAB        &A1     &A2     &A3     &A4     &mt LALT ESC  &lt 2 DELETE     &kp LEFT_ALT    &kp UP_ARROW  &kp DOWN_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW 1 &to     &TD1
