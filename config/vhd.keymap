@@ -88,11 +88,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans     &trans  &none   &none   &none   &none   &none   &none   &none
-&trans  &trans  &trans  &trans  &trans  &kp LG(A)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp LG(C)  &tog 3  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp LG(V)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp LG(Z)                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans     &trans  &none   &none             &none   &none   &none   &none   &none
+&trans  &trans  &trans  &trans  &trans  &kp LG(A)  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp LG(C)  &tog 3  &trans  &trans            &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp LG(V)  &trans  &trans  &kp LA(LG(N1))    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp LG(Z)                  &kp LG(NUMBER_2)  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
