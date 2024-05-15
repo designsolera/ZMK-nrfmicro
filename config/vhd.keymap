@@ -89,10 +89,10 @@
         layer_2 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans     &trans  &none   &none             &none   &none   &none   &none   &none
-&trans  &trans  &trans  &trans  &trans  &kp LG(A)  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp LG(C)  &tog 3  &trans  &trans            &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp LG(V)  &trans  &trans  &kp LA(LG(N1))    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp LG(Z)                  &kp LG(NUMBER_2)  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp LG(A)  &trans  &trans  &kp LA(LG(N7))            &kp LA(LG(N8))  &kp LA(LG(N9))  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp LG(C)  &tog 3  &trans  &kp LA(LG(N4))            &kp LA(LG(N5))  &kp LA(LG(N6))  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp LG(V)  &trans  &trans  &kp LA(LG(N1))    &kp LA(LG(N2))  &kp LA(LG(N3))  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp LG(Z)                  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &trans  &trans  &trans
             >;
         };
 
