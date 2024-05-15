@@ -18,7 +18,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "NEW_BEHAVIOR";
             #binding-cells = <0>;
-            bindings = <&kp NUMBER_1>, <&kp NUMBER_2>, <&kp NUMBER_3>;
+            bindings = <&mt LSHFT T>,
+            <&kp 2>;
         };
     };
 
@@ -36,6 +37,27 @@
             bindings = <&kp NUMBER_1 &kp ENTER>;
             label = "A1";
         };
+
+        A2: A2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp NUMBER_2 &kp ENTER>;
+            label = "A2";
+        };
+
+        A3: A3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp NUMBER_3 &kp ENTER>;
+            label = "A3";
+        };
+
+        A4: A4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp NUMBER_4 &kp ENTER>;
+            label = "A4";
+        };
     };
 
     keymap {
@@ -44,10 +66,10 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp ESC        &kp F1  &kp F2  &kp F3  &kp F4         &kp F5  &lt 2 DELETE     &kp LEFT_ALT    &kp UP_ARROW  &kp DOWN_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &to 4     &trans
-&kp TAB        &A1     &kp N2  &kp N3  &new_behavior  &kp N5  &lt 1 SPACE      &kp LEFT_GUI    &kp N6        &kp N7          &kp N8          &kp N9           &kp N0    &kp MINUS
-&kp BACKSPACE  &kp Q   &kp W   &kp E   &kp R          &kp T   &mt LCTRL ENTER  &kp LEFT_SHIFT  &kp Y         &kp U           &kp I           &kp O            &kp P     &kp LEFT_BRACKET
-&kp LSHIFT     &kp A   &kp S   &kp D   &kp F          &kp G   &kp D            &kp N4          &kp H         &kp J           &kp K           &kp L            &kp SEMI  &kp SQT
+&kp ESC        &kp F1  &kp F2  &kp F3  &kp F4         &kp F5  &lt 2 DELETE     &kp LEFT_ALT    &kp UP_ARROW  &kp DOWN_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &to 4     &new_behavior
+&kp TAB        &A1     &A2  &A3  &A4  &mt LALT Esc  &lt 1 SPACE      &kp LEFT_GUI    &kp N6        &kp N7          &kp N8          &kp N9           &kp N0    &kp MINUS
+&kp BACKSPACE  &kp Q   &kp W   &kp E   &kp R          &mt LSHFT T   &mt LCTRL ENTER  &kp LEFT_SHIFT  &kp Y         &kp U           &kp I           &kp O            &kp P     &kp LEFT_BRACKET
+&kp LSHIFT     &kp A   &kp S   &kp D   &kp F          &mt LGUI G   &kp D            &kp N4          &kp H         &kp J           &kp K           &kp L            &kp SEMI  &kp SQT
 &kp CAPSLOCK   &kp Z   &kp X   &kp C   &kp V          &kp B                                    &kp N         &kp M           &kp COMMA       &kp DOT          &kp FSLH  &kp BACKSLASH
             >;
         };
@@ -55,10 +77,10 @@
         layer_1 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N7  &kp N8  &kp N9  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N4  &kp N5  &kp N6   &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N1  &kp N2  &kp N3  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &N00  &kp N0  &trans  &trans  &trans  &trans
             >;
         };
 
